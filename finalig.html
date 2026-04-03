@@ -621,7 +621,7 @@ textarea.inp{resize:vertical;line-height:1.6;}
         <div style="font-family:'Syne',sans-serif;font-size:20px;font-weight:800;margin-bottom:18px;">Create Quiz</div>
         <div class="mgrid">
           <div class="mcard sel" id="m-manual"><div class="mi">✏️</div><h3>Manual Creation</h3><p>Write your own questions and mark correct answers</p></div>
-          <div class="mcard" id="m-ai"><div class="mi">🤖</div><h3>AI Generation</h3><p>Instant questions from built-in bank — no API needed!</p></div>
+          <div class="mcard" id="m-ai"><div class="mi">🤖</div><h3>AI Generation</h3><p>Instant questions</p></div>
         </div>
         <div class="card" style="margin-bottom:16px;">
           <div style="font-family:'Syne',sans-serif;font-size:13px;font-weight:700;margin-bottom:13px;">Quiz Details</div>
@@ -659,8 +659,8 @@ textarea.inp{resize:vertical;line-height:1.6;}
               <div class="iw" style="margin:0;"><label>No. of Qs</label>
                 <input class="inp" id="ai-count" type="number" value="5" min="1" max="10"/></div>
             </div>
-            <div class="iw" style="margin:12px 0 0;"><label>Enter topic (optional)</label>
-              <input class="inp" id="ai-topic" placeholder="e.g. normalization, deadlock, SQL joins…"/></div>
+            <!-- <div class="iw" style="margin:12px 0 0;"><label>Enter topic (optional)</label>
+              <input class="inp" id="ai-topic" placeholder="e.g. normalization, deadlock, SQL joins…"/></div> -->
             <button class="btn bp bsm" id="btn-generate">⚡ Generate Questions</button>
             <div id="ai-stat" style="margin-top:9px;font-size:13px;"></div>
           </div>
